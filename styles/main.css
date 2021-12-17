@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.accordion,
+.formulaire,
+.carousel-item img {
+  border-radius: 10px;
+}
+
+/* ====================================
+   HEADER
+ * ==================================== */
+
+.menu {
+  display: flex;
+  height: 70px;
+  background: linear-gradient(to bottom, #f19e30 10%, #f5ea56 50%, #2bf025 75%);
+}
+
+#color-active {
+  color: black;
+  background-color: transparent;
+  border: 0 none;
+}
+
+#drop {
+  color: black;
+  background-color: transparent;
+  border: 0 none;
+}
+
+#disa {
+  color: black;
+  background-color: transparent;
+  border: 0 none;
+}
+
+/* ====================================
+   ZONE 1
+ * ==================================== */
+
+.container {
+  width: 90%;
+}
+
+.zone1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.accordion {
+  background-color: #1abc9c;
+  padding: 50px 0 50px 0; /*même chose que padding: 50px 0;*/
+}
+
+.formulaire {
+  background-color: #3498db;
+  padding: 50px 0;
+}
+
+.formulaire form {
+  width: 70%;
+  margin: auto;
+}
+
+/* ====================================
+   Déroulant
+ * ==================================== */
+
+#book {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.deroulant {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.carousel-item img,
+.carousel-control-prev,
+.carousel-control-next {
+  height: 600px;
+}
+
+/* ====================================
+   Bootstrap
+ * ==================================== */
+
+.btn {
+  height: fit-content;
+}
